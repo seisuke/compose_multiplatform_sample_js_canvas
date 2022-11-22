@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sample_js_canvas-desktop">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <root id="archive" name="sample_js_canvas-desktop.jar">
+      <element id="module-output" name="sample_js_canvas.desktopMain" />
+    </root>
+  </artifact>
+</component>
