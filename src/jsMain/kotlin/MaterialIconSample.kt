@@ -20,5 +20,11 @@ fun MaterialIcon() {
         ) {
             Icon(Icons.Filled.Add, "add")
         }
+
+        Button(
+            onClick = {}
+        ) {
+            Icon(Icons.Outlined.Export, "add")
+        }
     }
 }
