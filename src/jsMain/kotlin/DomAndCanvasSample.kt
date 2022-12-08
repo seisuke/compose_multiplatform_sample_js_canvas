@@ -13,16 +13,11 @@ fun DomAndCanvas() {
     var text by remember { mutableStateOf("text") }
     TextField(
         value = text,
-        onValueChange = {
-            text = it
-        }
+        onValueChange = { text = it }
     )
-
     LaunchedEffect(Unit) {
         renderComposable(rootElementId = "root") {
-            Div {
-                org.jetbrains.compose.web.dom.Text(text)
-            }
+            Div { org.jetbrains.compose.web.dom.Text(text) }
         }
     }
 }
